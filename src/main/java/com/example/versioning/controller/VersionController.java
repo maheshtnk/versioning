@@ -24,7 +24,7 @@ public class VersionController {
 	
 	@CrossOrigin
 	@ApiOperation(value = "App version with sha details")
-	@GetMapping(path="/appInfo",produces = "application/json")
+	@GetMapping(path="/version",produces = "application/json")
     public AppModel getAppDetails() {
 		AppModel response = null;
 		try {
