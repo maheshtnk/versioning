@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.versioning.exception.TechnicalException;
 import com.example.versioning.model.AppModel;
-import com.example.versioning.model.myapplication;
 import com.example.versioning.service.VersionService;
 
 import io.swagger.annotations.ApiOperation;
